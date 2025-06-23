@@ -1,0 +1,30 @@
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.book-card {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.book-price {
+  color: #0094ff;
+  font-weight: bold;
+}

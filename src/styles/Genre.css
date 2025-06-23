@@ -1,0 +1,22 @@
+.genres {
+    background-color: #0094ff;
+    color: black;
+    padding: 200px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+
+.genre-card {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 25.8px 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}

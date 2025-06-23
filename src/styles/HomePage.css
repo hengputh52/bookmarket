@@ -1,0 +1,86 @@
+.homepage {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0094ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+}
+
+.hero-img {
+  width: 50%
+}
+
+.hero-text h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.hero-text p {
+  margin: 10px 0;
+}
+
+.browse-btn {
+  background-color: yellow;
+  border-radius: 0;
+  padding: 15px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black
+}
+
+/* Lasted Added */
+.section-title {
+  color: #0094ff;
+  margin: 30px 20px 10px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.book-card {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.book-price {
+  color: #0094ff;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .book-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+}
